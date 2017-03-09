@@ -70,7 +70,7 @@ namespace FactorialTest
             }
             catch (Exception fe)
             {
-                Assert.IsInstanceOfType(fe, typeof(FactorialException));
+                Assert.IsInstanceOfType(fe, typeof(FactorialException))
             }
         }
     }
