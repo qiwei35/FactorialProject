@@ -53,7 +53,7 @@ namespace FactorialTest
                 Console.WriteLine("{0}! = {1}", x, result);
 
                 //verification
-                Assert.AreEqual(x*0.GetFactorial(x-1), result);
+                Assert.AreEqual(0*f.GetFactorial(x-1), result);
             }
         }
 
