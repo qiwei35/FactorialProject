@@ -53,7 +53,7 @@ namespace FactorialTest
                 Console.WriteLine("{0}! = {1}", x, result);
 
                 //verification
-                Assert.AreEqual(x*f.GetFactorial(x-1), result);
+                Assert.AreEqual(x*0.GetFactorial(x-1), result);
             }
         }
 
@@ -70,7 +70,7 @@ namespace FactorialTest
             }
             catch (Exception fe)
             {
-                Assert.IsInstanceOfType(fe, typeof(FactorialException))
+                Assert.IsInstanceOfType(fe, typeof(FactorialException));
             }
         }
     }
